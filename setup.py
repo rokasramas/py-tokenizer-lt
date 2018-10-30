@@ -11,7 +11,7 @@ def read(file):
 setup(
     name='py-tokenizer-lt',
     version='1.0',
-    description='Simple tokenizer for lithuanian language based on Conditional Random Fields',
+    description='Simple tokenizer for Lithuanian language based on Conditional Random Fields',
     long_description=read('README.md'),
     author='Rokas Ramanauskas',
     author_email='rokasramas@gmail.com',
