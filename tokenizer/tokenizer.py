@@ -7,8 +7,8 @@ from typing import Iterator, List
 def get_feature(left: str, right: str) -> List[str]:
     """generate single feature given string to left and right"""
     return list(chain(
-        (f'c[{-i}]:{char}' for char, i in zip(left, reversed(range(1, len(left)+1)))),
-        (f'c[{i}]:{char}' for char, i in zip(right, range(len(right))))
+        (f'c{-i}:{char}' for char, i in zip(left, reversed(range(1, len(left)+1)))),
+        (f'c{i}:{char}' for char, i in zip(right, range(len(right))))
     ))
 
 
