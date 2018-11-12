@@ -1,0 +1,4 @@
+output/*
+resources/training.txt
+.idea/*
+*.pyc
