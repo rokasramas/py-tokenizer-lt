@@ -17,7 +17,7 @@ setup(
     author_email='rokasramas@gmail.com',
     url='https://github.com/rokasramas/py-tokenizer-lt/',
     packages=['tokenizer'],
-    package_data={'tokenizer': ['resources/lt-model.crfsuite']},
+    package_data={'tokenizer': ['resources/lt-model.crfsuite', 'resources/url.regex']},
     include_package_data=True,
     install_requires=['python-crfsuite', 'regex']
 )
